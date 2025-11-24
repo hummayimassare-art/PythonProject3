@@ -8,7 +8,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent.parent))
 
 # Now we can import normally (no dot!)
-from app.data.db import connect_database
+from db import connect_database
 
 def create_tables():
     conn = connect_database()

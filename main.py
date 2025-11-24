@@ -1,8 +1,8 @@
 # main.py
-from app.data.schema import create_tables
-from services.user_service import migrate_users_from_file
-from app.data.db import connect_database
-from app.data import users, incidents
+from schema import create_tables
+from user_service import migrate_users_from_file
+from db import connect_database
+import users, incidents
 
 def main():
     print("Creating database and tables...")

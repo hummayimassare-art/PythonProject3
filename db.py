@@ -2,7 +2,7 @@
 import sqlite3
 from pathlib import Path
 
-DATABASE_PATH = Path("trial/intelligence_platform.db")
+DATABASE_PATH = Path("intelligence_platform.db")
 
 def connect_database():
     """Return a connection to the SQLite database"""

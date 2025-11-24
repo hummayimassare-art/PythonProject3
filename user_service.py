@@ -1,11 +1,12 @@
 # services/user_service.py
 import bcrypt
-from app.data.db import connect_database
+import sqlite3
+from db import connect_database
 
 def hash_password(password: str) -> str:
     return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
 
-def migrate_users_from_file(filepath="DATA/users.txt"):
+def migrate_users_from_file(filepath="users.txt"):
     conn = connect_database()
     cursor = conn.cursor()
 
