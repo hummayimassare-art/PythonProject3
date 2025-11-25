@@ -19,7 +19,7 @@ def main():
     print("\nTesting CRUD Operations:")
 
     # Test User CRUD
-    users.create_user(conn, "bob", "secret123", "admin")
+    users.create_user(conn, "bob2", "secret123", "admin")
     print("All users:", [dict(u) for u in users.get_all_users(conn)])
 
     # Test Incident CRUD
