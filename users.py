@@ -1,5 +1,5 @@
 # users.py
-import sqlite3   # ✅ FIX: You forgot this import
+import sqlite3   # FIX: You forgot this import
 from werkzeug.security import generate_password_hash, check_password_hash
 
 def create_user(conn, username, password, role):
