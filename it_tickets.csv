@@ -1,0 +1,3 @@
+ticket_id,priority,description,status,assigned_to,created_at,resolution_time_hours
+2000,High,Ticket 0,Resolved,IT_Support_A,2024-01-27 05:00:00,24
+2001,Medium,Ticket 1,Resolved,IT_Support_C,2024-08-06 07:00:00,37

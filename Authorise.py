@@ -1,7 +1,7 @@
 import bcrypt
 import os
 
-USER_DATA_FILE = "users.txt"
+USER_DATA_FILE = "DATA/users.txt"
 
 def hash_password(plain_text_password):
     """Hash a password using bcrypt with automatic salt generation."""

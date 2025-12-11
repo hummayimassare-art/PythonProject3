@@ -1,0 +1,6 @@
+incident_id,timestamp,severity,category,status,description
+1000,2024-04-12 19:00:00.000000,Low,Malware,Closed,Incident 0 description
+1001,2024-09-27 10:00:00.000000,Medium,Malware,Resolved,Incident 1 description
+1002,2024-03-12 20:00:00.000000,Critical,Misconfiguration,Resolved,Incident 2 description
+1003,2024-04-12 18:00:00.000000,Medium,Phishing,Open,Incident 3 description
+1004,2024-08-02 10:00:00.000000,Medium,Phishing,In Progress,Incident 4 description
